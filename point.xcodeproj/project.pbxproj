@@ -31,6 +31,11 @@
 		B81D9F8324A2A0B80050A1B4 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81D9F8224A2A0B80050A1B4 /* Circle.swift */; };
 		B81D9F8524A2A3BD0050A1B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B81D9F8424A2A3BC0050A1B4 /* GoogleService-Info.plist */; };
 		B81D9F8724A2A7F30050A1B4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81D9F8624A2A7F30050A1B4 /* Login.storyboard */; };
+		B828E99024A561D000853DC8 /* GuardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B828E98F24A561D000853DC8 /* GuardTableViewCell.swift */; };
+		B828E99224A563E500853DC8 /* ResumeDateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B828E99124A563E500853DC8 /* ResumeDateTableViewController.swift */; };
+		B828E99624A7F96000853DC8 /* SectionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B828E99524A7F95F00853DC8 /* SectionsTableViewCell.swift */; };
+		B828E99A24A8FD4400853DC8 /* PointTime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B828E99924A8FD4400853DC8 /* PointTime.storyboard */; };
+		B828E99C24A9012100853DC8 /* ResumeCalendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B828E99B24A9012100853DC8 /* ResumeCalendar.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +78,7 @@
 		B81D9F5724A29C240050A1B4 /* pointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81D9F5B24A29C240050A1B4 /* pointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointUITests.swift; sourceTree = "<group>"; };
 		B81D9F5D24A29C240050A1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B81D9F6D24A29CED0050A1B4 /* homeLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = homeLocation.gpx; sourceTree = "<group>"; };
+		B81D9F6D24A29CED0050A1B4 /* OfficeLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = OfficeLocation.gpx; sourceTree = "<group>"; };
 		B81D9F6E24A29E900050A1B4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		B81D9F7024A29EB50050A1B4 /* FirebaseModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseModal.swift; sourceTree = "<group>"; };
 		B81D9F7224A29F090050A1B4 /* Double + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + extension.swift"; sourceTree = "<group>"; };
@@ -87,6 +92,11 @@
 		B81D9F8224A2A0B80050A1B4 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		B81D9F8424A2A3BC0050A1B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B81D9F8624A2A7F30050A1B4 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		B828E98F24A561D000853DC8 /* GuardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardTableViewCell.swift; sourceTree = "<group>"; };
+		B828E99124A563E500853DC8 /* ResumeDateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeDateTableViewController.swift; sourceTree = "<group>"; };
+		B828E99524A7F95F00853DC8 /* SectionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsTableViewCell.swift; sourceTree = "<group>"; };
+		B828E99924A8FD4400853DC8 /* PointTime.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PointTime.storyboard; sourceTree = "<group>"; };
+		B828E99B24A9012100853DC8 /* ResumeCalendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResumeCalendar.storyboard; sourceTree = "<group>"; };
 		B9C99F435C553A75040128C5 /* Pods_pointTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pointTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -166,7 +176,7 @@
 		B81D9F3824A29C200050A1B4 /* point */ = {
 			isa = PBXGroup;
 			children = (
-				B81D9F6D24A29CED0050A1B4 /* homeLocation.gpx */,
+				B81D9F6D24A29CED0050A1B4 /* OfficeLocation.gpx */,
 				B81D9F4724A29C230050A1B4 /* Info.plist */,
 				B81D9F3924A29C200050A1B4 /* AppDelegate.swift */,
 				B81D9F3B24A29C200050A1B4 /* SceneDelegate.swift */,
@@ -212,10 +222,11 @@
 		B81D9F6A24A29C790050A1B4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B81D9F6C24A29C8E0050A1B4 /* Storiboards */,
 				B81D9F7E24A2A0700050A1B4 /* UIcolor + extension.swift */,
 				B81D9F8024A2A0900050A1B4 /* UIlabel + extension.swift */,
 				B81D9F8224A2A0B80050A1B4 /* Circle.swift */,
+				B828E99824A8FA5C00853DC8 /* TableViewCells */,
+				B81D9F6C24A29C8E0050A1B4 /* Storyboards */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -223,22 +234,42 @@
 		B81D9F6B24A29C810050A1B4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B81D9F7824A29F940050A1B4 /* LoginViewController.swift */,
-				B81D9F7A24A29FB60050A1B4 /* RegisterViewController.swift */,
+				B828E99724A8FA1900853DC8 /* Login&Register */,
 				B81D9F3D24A29C200050A1B4 /* ViewController.swift */,
 				B81D9F7C24A2A0140050A1B4 /* CalendarViewController.swift */,
+				B828E99124A563E500853DC8 /* ResumeDateTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		B81D9F6C24A29C8E0050A1B4 /* Storiboards */ = {
+		B81D9F6C24A29C8E0050A1B4 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				B81D9F4424A29C230050A1B4 /* LaunchScreen.storyboard */,
 				B81D9F3F24A29C200050A1B4 /* Main.storyboard */,
 				B81D9F8624A2A7F30050A1B4 /* Login.storyboard */,
+				B828E99924A8FD4400853DC8 /* PointTime.storyboard */,
+				B828E99B24A9012100853DC8 /* ResumeCalendar.storyboard */,
 			);
-			path = Storiboards;
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B828E99724A8FA1900853DC8 /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				B81D9F7A24A29FB60050A1B4 /* RegisterViewController.swift */,
+				B81D9F7824A29F940050A1B4 /* LoginViewController.swift */,
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		B828E99824A8FA5C00853DC8 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B828E99524A7F95F00853DC8 /* SectionsTableViewCell.swift */,
+				B828E98F24A561D000853DC8 /* GuardTableViewCell.swift */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,10 +381,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B828E99A24A8FD4400853DC8 /* PointTime.storyboard in Resources */,
 				B81D9F4624A29C230050A1B4 /* LaunchScreen.storyboard in Resources */,
 				B81D9F4324A29C230050A1B4 /* Assets.xcassets in Resources */,
 				B81D9F4124A29C200050A1B4 /* Main.storyboard in Resources */,
 				B81D9F8724A2A7F30050A1B4 /* Login.storyboard in Resources */,
+				B828E99C24A9012100853DC8 /* ResumeCalendar.storyboard in Resources */,
 				B81D9F8524A2A3BD0050A1B4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,15 +519,18 @@
 				B81D9F7F24A2A0700050A1B4 /* UIcolor + extension.swift in Sources */,
 				B81D9F7B24A29FB60050A1B4 /* RegisterViewController.swift in Sources */,
 				B81D9F7124A29EB50050A1B4 /* FirebaseModal.swift in Sources */,
+				B828E99224A563E500853DC8 /* ResumeDateTableViewController.swift in Sources */,
 				B81D9F7D24A2A0140050A1B4 /* CalendarViewController.swift in Sources */,
 				B81D9F6F24A29E900050A1B4 /* Router.swift in Sources */,
 				B81D9F7724A29F5D0050A1B4 /* NotificationsModal.swift in Sources */,
 				B81D9F8324A2A0B80050A1B4 /* Circle.swift in Sources */,
+				B828E99624A7F96000853DC8 /* SectionsTableViewCell.swift in Sources */,
 				B81D9F3E24A29C200050A1B4 /* ViewController.swift in Sources */,
 				B81D9F7524A29F390050A1B4 /* LocationModal.swift in Sources */,
 				B81D9F3A24A29C200050A1B4 /* AppDelegate.swift in Sources */,
 				B81D9F7324A29F090050A1B4 /* Double + extension.swift in Sources */,
 				B81D9F8124A2A0900050A1B4 /* UIlabel + extension.swift in Sources */,
+				B828E99024A561D000853DC8 /* GuardTableViewCell.swift in Sources */,
 				B81D9F3C24A29C200050A1B4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

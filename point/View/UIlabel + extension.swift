@@ -24,16 +24,4 @@ extension UILabel{
     
         return self
     }
-    func labelFromCode2 (text : String , frame : CGRect , textColor :UIColor , positionCenter : CGPoint , textAlignement : NSTextAlignment , with View :UIView) -> UILabel {
-           self.text = text
-           self.frame = frame
-           self.textColor = textColor
-           self.center = positionCenter
-           self.textAlignment = textAlignement
-           self.numberOfLines = 1
-           self.font = .boldSystemFont(ofSize: 32)
-           View.addSubview(self)
-       
-           return self
-       }
 }

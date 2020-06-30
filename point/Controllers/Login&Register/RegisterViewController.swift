@@ -19,7 +19,7 @@
         
         @IBOutlet weak var ButtonRegister: UIButton!
         
-       
+       // register to firebase auth
         @IBAction func registerAction(_ sender: UIButton) {
             
               guard isEmailValide && passwordIsValide ,let email = emailField.text ,let password = PasswordField.text
@@ -63,6 +63,8 @@
             // Do any additional setup after loading the view.
         }
     }
+    
+    
     protocol PKHUDProto {
         
     }
@@ -80,6 +82,7 @@
             HUD.flash(.labeledSuccess(title: title, subtitle: subtitle), delay: 1)
            }
     }
+    
     extension UIViewController : PKHUDProto{}
     extension FirebaseModal :PKHUDProto {}
     

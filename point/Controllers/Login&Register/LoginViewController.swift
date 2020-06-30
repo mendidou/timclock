@@ -15,7 +15,7 @@
                 
                 @IBOutlet weak var emailField: UITextField!
                 @IBOutlet weak var PasswordField: UITextField!
-                
+                // login to Firebase Auth
                 @IBAction func loginBtn(_ sender: UIButton) {
                     
                 guard isEmailValide && passwordIsValide ,let email = emailField.text ,let password = PasswordField.text

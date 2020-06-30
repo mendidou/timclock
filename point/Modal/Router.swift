@@ -31,6 +31,5 @@ class Router{
         let filename = isLogedIn ? "Main" : "Login"
         let sb  = UIStoryboard(name: filename, bundle: .main)
         window?.rootViewController = sb.instantiateInitialViewController()
-        
     }
 }

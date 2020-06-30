@@ -63,7 +63,7 @@
                         
                         return
                     }
-                    print("out")
+                   // print("out")
                     let formater = DateFormatter()
                     formater.dateFormat = "dd:MM:yyyy HH:mm:ss"
                     let guardStartedAt = formater.string(from: Date())
@@ -91,13 +91,17 @@
                 dateFormatter.dateFormat = "EEEE"
                 var nameOfDay = dateFormatter.string(from: Guard)
                 dateFormatter.dateFormat = "d"
-                nameOfDay = nameOfDay + " - " + dateFormatter.string(from: Guard)
+                let numberOfDay = dateFormatter.string(from: Guard)
+                 nameOfDay = nameOfDay + " - " + numberOfDay
                 dateFormatter.dateFormat = "HH:mm:ss"
                 let time = dateFormatter.string(from: Guard)
                 dateFormatter.dateFormat = "dd:MM:yyyy HH:mm:ss"
                 let stringDate = dateFormatter.string(from: Guard)
                  dataBaseRef.child(currentAuthName).child("lastDate").setValue(stringDate)
                 dataBaseRef.child(currentAuthName).child(nameOfMonth).child(nameOfDay).child(guardStartedAt).child(inOrOut).setValue(time)
+                dataBaseRef.child(currentAuthName).child(nameOfMonth).child(nameOfDay).child("Date").setValue("\(nameOfMonth) : \(nameOfDay)")
+                dataBaseRef.child(currentAuthName).child(nameOfMonth).child(nameOfDay).child("NoFromDate").setValue("\(numberOfDay)")
+               
             }
             
         }
