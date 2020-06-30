@@ -1,0 +1,6 @@
+framework module Pods_pointTests {
+  umbrella header "Pods-pointTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
