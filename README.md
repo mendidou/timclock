@@ -16,3 +16,13 @@ futur updates for the app :
 1) give the possibility to check with the wifi 
 2) allow the employees to fill up differents form (tofes 101...)
 
+![](Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-07-01%20at%2000.42.46.png)
+![](https://github.com/mendidou/timclock/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-07-01%20at%2000.43.03.png)
+![](https://github.com/mendidou/timclock/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-07-01%20at%2000.46.06.png)
+![](https://github.com/mendidou/timclock/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-07-01%20at%2000.46.08.png)
+![](https://github.com/mendidou/timclock/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-07-01%20at%2000.46.14.png)
+![](https://github.com/mendidou/timclock/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-07-01%20at%2000.46.18.png)
+![](https://github.com/mendidou/timclock/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-07-01%20at%2000.46.18.png)
+![](https://github.com/mendidou/timclock/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-07-01%20at%2000.46.25.png)
+![](https://github.com/mendidou/timclock/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-07-01%20at%2000.48.35.png)
+![](https://github.com/mendidou/timclock/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-07-01%20at%2000.48.40.png)
